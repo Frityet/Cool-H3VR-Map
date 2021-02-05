@@ -8,6 +8,7 @@
       <e p="Assets\Scripts" t="Include">
         <e p="EnumPicker.cs" t="Include" />
         <e p="Extensions.cs" t="Include" />
+        <e p="GetMOTD.cs" t="Include" />
         <e p="JSON" t="Include">
           <e p="Resources.cs" t="Include" />
         </e>

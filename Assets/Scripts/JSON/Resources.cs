@@ -1,22 +1,22 @@
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-
+using System.Net;
 using Valve.Newtonsoft.Json;
-using Valve.Newtonsoft.Json.Converters;
 
 public class Resources
 {
-    [JsonIgnore] public readonly string ResourceURL = "";
-    
+    [JsonIgnore] private const string ResourceURL = "https://raw.githubusercontent.com/Frityet/Cool-H3VR-Map/master/Resources.json";
+
     [JsonProperty("Resources Revision")] public int ResourcesRevision { get; set; }
 
     [JsonProperty("MOTD")] public string Motd { get; set; }
 
     [JsonProperty("Linked Files")] public string[] LinkedFiles { get; set; }
 
-    public Resources GetResources()
+    public static Resources GetResources()
     {
-        return null;
+        var getter = new WebClient();
+
+        var resourcesFile = getter.DownloadString(ResourceURL);
+        
+        return JsonConvert.DeserializeObject<Resources>(resourcesFile);
     }
 }
