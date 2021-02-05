@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df5077b6-5ce6-4e70-bcb7-4d76a633a342" name="Default Changelist" comment="hope" />
+    <list default="true" id="df5077b6-5ce6-4e70-bcb7-4d76a633a342" name="Default Changelist" comment="hope">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/JSON.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/JSON/Resources.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/JSON/Resources.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Coolest H3VR Map you will ever play/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Coolest H3VR Map you will ever play/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Coolest H3VR Map you will ever play/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Coolest H3VR Map you will ever play/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ShinyBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ShinyBlack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Time.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,6 +42,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TestUnityEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TestEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Time.cs" />
+      <option value="$PROJECT_DIR$/Database/twar.http" />
+      <option value="$PROJECT_DIR$/Resources.json" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JSON/Resourcea.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JSON/Resources.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o0FiVI1lxHBolph4XuZdxeoleu" />
@@ -73,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612415731138</updated>
       <workItem from="1612415737662" duration="2991000" />
+      <workItem from="1612420018218" duration="1989000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;First Commit!">
       <created>1612419045938</created>
@@ -88,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612419139677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Honestly idk what im doing">
+      <created>1612420045028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612420045028</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Honestly idk what im doing">
+      <created>1612420098218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612420098218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +143,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="&#10;First Commit!" />
     <MESSAGE value="Add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
+    <MESSAGE value="Honestly idk what im doing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Honestly idk what im doing" />
   </component>
 </project>
